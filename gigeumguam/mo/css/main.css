@@ -27,8 +27,8 @@ body{padding-bottom: 60px;}
 header {width: 100%; display: flex; justify-content: space-between; align-items: center;  height: 60px; position: fixed; box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15); z-index: 9; background-color: #fff;}
 /* header */
 .header_left_section { display: flex; align-items: center; }
-header > .header_left_section > .logo { display:inline-block; height: 55px;}
-header > .header_left_section > .logo > img { display: block; width: auto; height: 100%}
+header > .logo { display:inline-block; height: 55px;}
+header > .logo > img { display: block; width: auto; height: 100%}
 .header_left_section > button {width: 27px;  margin:0 15px;}
 .header_left_section > button > img {width: 100%; height: 100%;}
 .header_btn_wrap > button {width: 25px; margin:0 15px;}
