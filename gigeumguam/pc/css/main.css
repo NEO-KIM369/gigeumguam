@@ -44,7 +44,7 @@ body,html{width: 100%; height: 100%; overflow-x: hidden;}
 .all_menu { display: flex; align-items: center; margin-right: 15px; padding: 15px 20px; border-right: 1px solid rgb(180, 180, 180); border-left: 1px solid rgb(180, 180, 180); }
 .all_menu img { width: 20px; margin-right: 10px;}
 .all_menu p { font-size: 18px; }
-.menu_wrap a { padding: 15px 20px; font-size: 18px; }
+.menu_wrap a { padding: 15px 60px; font-size: 18px; }
 .menu_detail{position: absolute;top: 100%;width: 100%; display: flex; justify-content: center; border-bottom: 1px solid  rgb(180, 180, 180); background-color: rgb(246, 252, 255); display: none;z-index: 9999;}
 .menu_detail_wrap { margin: 0 auto;width: 1200px; display: flex; justify-content: space-between; padding: 20px 0;}
 .submenu_detail_wrap { margin-right: 20px;}
