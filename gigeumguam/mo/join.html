@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="js/common.js"></script>
+    <title>지금괌</title>
+</head>
+
+<body>
+    <div class="join_wrap">
+        <a href="javascript:history.back();" class="login_btn_a">
+            <button class="login_close_btn">
+                <img src="img/close.png" alt="">
+            </button>
+        </a>
+        <div class="join_section1">
+            <img src="img/logo.png" alt="" class="join_logo">
+            <p class="join_welcome_txt">
+                회원가입
+            </p>
+        </div>
+        <div class="join_section2">
+            <form post="" action="" id="join-form">
+                <p class="join_title">
+                    아이디(이메일)
+                </p>
+                <div class="join_write">
+                    <input type="email" name="joinId" id="join_id" placeholder="이메일을 입력해주세요">
+                    <input type="submit" value="인증요청">
+                </div>
+                <p class="join_title">
+                    인증번호 확인
+                </p>
+                <div class="join_write">
+                    <input type="text" name="joinIdCheck" id="join_check" placeholder="인증번호를 입력해주세요">
+                    <input type="submit" value="인증확인">
+                </div>
+                <p class="join_title">
+                    비밀번호
+                </p>
+                <div class="join_write_2">
+                    <input type="password"  minlength="8" name="joinPassword" id="join_password" placeholder="비밀번호를 입력해주세요">
+                </div>
+                <p class="join_title">
+                    비밀번호 확인
+                </p>
+                <div class="join_write_2">
+                    <input type="text" name="joinPasswordCheck" id="join_password_check" placeholder="비밀번호를 재입력해주세요">
+                </div>
+                <p class="join_title">
+                    이름
+                </p>
+                <div class="join_write_2">
+                    <input type="text" name="joinName" id="join_name" placeholder="이름을 입력해주세요">
+                </div>
+                <p class="join_title">
+                    영문 성
+                </p>
+                <div class="join_write_2">
+                    <input type="text" name="joinEngFirst" id="join_Firstname" placeholder="여권상 영문 성을 입력해주세요.">
+                </div>
+                <p class="join_title">
+                    영문 이름
+                </p>
+                
+                <div class="join_write_2">
+                    <input type="text" name="joinEngLast" id="join_Lastname" placeholder="여권상 영문 이름을 입력해주세요.">
+                </div>
+
+                <div class="mb-3">
+                    <label for="userSex" class="form-label">성별</label>
+                    <div class="form_toggle row-vh d-flex flex-row justify-content-between"  >
+                        <div class="form_radio_btn radio_male">
+                            <input id="radio-1" type="radio" name="userSex" value="male" checked>
+                            <label for="radio-1">남자</label>
+                        </div>
+                                                     
+                        <div class="form_radio_btn">
+                            <input id="radio-2" type="radio" name="userSex" value="female">
+                            <label for="radio-2">여자</label>
+                        </div>
+                    </div>
+                </div>
+                <p class="join_title">
+                    휴대폰 번호
+                </p>
+                <div class="join_write_2">
+                    <input type="text" name="joinPhone" id="join_Phone" placeholder="휴대폰 번호를 입력해주세요.">
+                    <p class="phone_detail"> 입력해주신 번호로 회원님께서 결제하신 예약내역현황을 SMS로 발송됩니다.</p>
+                </div>
+                <div class="join_agree_section">
+                    <div class="join_agree_all">
+                        <input type="checkbox" name="check_all" id="check_all">
+                        <label for="check_all">
+                            <span class="name">전체동의</span>
+                            <span class="icon"><i class="fa fa-check" aria-hidden="true"></i></span>
+                        </label>
+                    </div>
+
+                    <div class="join_agree_detail1">
+                        <input type="checkbox" name="check1" id="check1" class="normal">
+                        <label for="check1">
+                            <span class="name">이용약관동의 <span class="option">(필수)</span> </span>
+                            <span class="icon"><i class="fa fa-check" aria-hidden="true"></i></span>
+                        </label>
+                    </div>
+                    <div class="join_agree_detail2">
+                        <input type="checkbox" name="check2" id="check2" class="normal">
+                        <label for="check2">
+                            <span class="name">만 14세 이상 <span class="option">(필수)</span> </span>
+                            <span class="icon"><i class="fa fa-check" aria-hidden="true"></i></span>
+                        </label>
+                    </div>
+                    <div class="join_agree_detail3">
+                        <input type="checkbox" name="check3" id="check3" class="normal">
+                        <label for="check3">
+                            <span class="name">개인정보 이용 및 수집동의<span class="option">(필수)</span></span>
+                            <span class="icon"><i class="fa fa-check" aria-hidden="true"></i></span>
+                        </label>
+                    </div>
+                    <div class="join_agree_detail4">
+                        <input type="checkbox" name="check4" id="check4" class="normal">
+                        <label for="check4">
+                            <span class="name">개인정보 3자 제공 및 공유 동의<span class="option">(필수)</span></span>
+                            <span class="icon"><i class="fa fa-check" aria-hidden="true"></i></span>
+                        </label>
+                    </div>
+                    <div class="join_agree_detail5">
+                        <input type="checkbox" name="check5" id="check5" class="normal">
+                        <label for="check5">
+                            <span class="name">선택정보수집 및 이용 동의 <span class="option">(선택)</span></span>
+                            <span class="icon"><i class="fa fa-check" aria-hidden="true"></i></span>
+                        </label>
+                    </div>
+                </div>
+                <input type="submit" value="회원가입">
+            </form>
+
+        </div>
+    </div>
+
+    <div class="check1_wrap">
+        <div class="content_wrap">
+            <button class="check_close_btn">
+                <img src="img/close.png" alt="">
+            </button>
+            <h1>이용약관 동의</h1>
+            <div class="check_detail_txt">
+                <p></p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

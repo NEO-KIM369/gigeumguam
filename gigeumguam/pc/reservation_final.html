@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="js/common.js"></script>
+    <title>지금괌</title>
+</head>
+
+<body>
+    <div class="idpw_header">
+        <a href="javascript:history.back();" class="idpwfind_btn_a">
+            <button class="idpwfind_close_btn">
+                <img src="img/close.png" alt="">
+            </button>
+        </a>
+    </div>
+    <div class="reservation_final_wrap">
+        <h1 class="reservation_final_list_title">
+            1차 오전
+        </h1>
+        <div class="reservation_final_cell">
+            <p class="reservation_final_form_title">
+                예약날짜
+            </p>
+            <p class="reservation_final_form_date">
+                <span> 2023년 10월 18일 </span>
+            </p>
+        </div>
+        <div class="reservation_final_cell">
+            <form action="">
+
+                <p class="reservation_final_form_title">
+                    추가옵션
+                </p>
+                <p class="select_box_title">픽업호텔</p>
+                <select name="add_option_pickup" class="pickup_option" id="">
+                    <option value="">선택해주세요.</option>
+                    <option value="">오션뷰(Ocean View) 8:25</option>
+                    <option value="">베이뷰(Bay View) 8:25</option>
+                    <option value="">닛코(Nikko) 8:30</option>
+                    <option value="">롯데(Lotte) 8:30</option>
+                    <option value="">츠바키타워(Tsubaki Tower) 8:30</option>
+                    <option value="">웨스틴(Westin) 8:35</option>
+                    <option value="">리프(Reef) 8:35</option>
+                    <option value="">두짓비치-두짓타니 픽업(Dusit Beach) 8:40</option>
+                    <option value="">괌프라자(Guam Plaza) 8:40</option>
+                    <option value="">하얏트(Hyatt) 8:45</option>
+                    <option value="">그랜드프라자(Grand Plaza) 8:45</option>
+                    <option value="">홀리데이(Holiday) 8:50</option>
+                    <option value="">가든빌라(Garden Plaza) 8:50</option>
+                    <option value="">크라운프라자(Crown Plaza) 8:50</option>
+                    <option value="">피아이씨(PIC) 8:50</option>
+                    <option value="">힐튼(Hiltin) 8:50</option>
+                    <option value="">리가로얄(Rhiga Royal) 8:50</option>
+                    <option value="">호시노(Hoshino) 8:50</option>
+                    <option value="">산타페(Santafe) 8:50</option>
+                    <option value="">알루팡비치타워(Alupoang Beach Tower) 8:50</option>
+                    <option value="">데이즈인(days Inn) 8:55</option>
+                    <option value="">개별이동 픽업X 9:15</option>
+
+                </select>
+
+                <p class="select_box_title">유아 (만 2세 미만 무료)</p>
+                <select name="add_option_baby" class="baby_option" id="">
+                    <option value="">선택해주세요.</option>
+                    <option value="">1명</option>
+                    <option value="">2명</option>
+                    <option value="">3명</option>
+                    <option value="">4명</option>
+                    <option value="">5명</option>
+
+
+                </select>
+            </form>
+        </div>
+
+        <div class="reservation_final_cell">
+            <p class="reservation_final_form_title">
+                수량
+            </p>
+            <div class="reservation_adult_box">
+                <p class="adult">성인</p>
+                <p class="reservation_price"><span>78,459</span>원</p>
+
+                <div class="quantity_btn_wrap">
+                    <button id="increment">+</button>
+                    <p id="count">0</p>
+                    <button id="decrement">-</button>
+                </div>
+
+
+            </div>
+
+            <div class="reservation_child_box">
+                <p class="child">아동</p>
+                <p class="reservation_price"><span>48,256</span>원</p>
+
+                <div class="quantity_btn_wrap">
+                    <button id="increment_2">+</button>
+                    <p id="count_2">0</p>
+                    <button id="decrement_2">-</button>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+    </div>
+
+
+    <div class="reservation_final_fix">
+        <a href=""><button class="reservation_final_btn"><span>0</span>원 결제하기</button></a>
+    </div>
+
+
+
+
+</body>
+
+</html>
