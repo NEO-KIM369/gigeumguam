@@ -84,7 +84,7 @@ header .logo > img { display: block; width: auto; height: 100%}
 .bottom_menu_btn > img { display: block; width: 100%;}
 /* container */
 
-.section01 { width: 100%; margin-top:60px; background-color: rgb(255, 255, 255);}
+.section01 { width: 100%; margin-top:10px; background-color: rgb(255, 255, 255);}
 .section01 .sect_ttl img{ padding: 0; width: 76%;}
 .section01 .slide-wrapper{ width: 100% }
 .section01 .swiper-slide {  width: 100%; height: 50%; margin-bottom:10px; background-color: rgb(255, 255, 255);}
