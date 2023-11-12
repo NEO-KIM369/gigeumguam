@@ -87,7 +87,7 @@ header .logo > img { display: block; width: auto; height: 100%}
 .section01 { width: 100%; margin-top:60px; background-color: rgb(255, 255, 255);}
 .section01 .sect_ttl img{ padding: 0; width: 76%;}
 .section01 .slide-wrapper{ width: 100% }
-.section01 .swiper-slide {  width: 100%; height: 50%; margin-bottom:30px; background-color: rgb(255, 255, 255);}
+.section01 .swiper-slide {  width: 100%; height: 50%; margin-bottom:10px; background-color: rgb(255, 255, 255);}
 .section01 .swiper-slide > img { margin: 0 auto; display: block; width: 100%; }
 .section01 .swiper-slide > .slide_info{margin: 0 auto 5%; width: 90%; margin-top: 30px; margin-left: 5%;}
 .section01 .swiper-slide > .slide_info > .main_ttl{display: block; font-weight: bold; padding-top:10px; padding-bottom: 20px; font-size: 28px; }
