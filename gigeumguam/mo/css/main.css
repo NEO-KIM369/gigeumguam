@@ -16,7 +16,7 @@ table{width:100%;border-collapse:separate;empty-cells:show;border-spacing:0}
 hr,legend{display:none}
 caption{overflow:hidden;position:static;top:0;left:0;width:0;height:0;font-size:0;line-height:0}
 strong, b{font-weight:600}
-button{box-sizing:border-box;border:none;background:none}
+button{box-sizing:border-box;border:none;background:none; border-radius:0}
 label{cursor:pointer}
 a:hover{text-decoration:none}
 a:visited{color:inherit}
