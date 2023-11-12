@@ -511,6 +511,8 @@ header .logo > img { display: block; width: auto; height: 100%}
 
 #menu > button {
   border: 1px solid #333;
+  width: 20%;
+  margin: 0;
 }
 
 footer{ display: block; position: relative; width: 100%; height:auto; background-color: rgb(63, 63, 63); padding-bottom: 20px;}
