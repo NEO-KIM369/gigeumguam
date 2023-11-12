@@ -505,11 +505,11 @@ header .logo > img { display: block; width: auto; height: 100%}
 .day { text-align: center; font-size:12px; font-weight: bold; color:rgb(189, 189, 189); }
 .day_selected { background-color: #2492c975 !important; color: #ffff;}
 
-.menu {
+#menu {
   clear: both;
 }
 
-.menu > button {
+#menu > button {
   border: 1px solid #333;
 }
 
