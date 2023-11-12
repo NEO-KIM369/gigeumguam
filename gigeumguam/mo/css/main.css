@@ -505,6 +505,14 @@ header .logo > img { display: block; width: auto; height: 100%}
 .day { text-align: center; font-size:12px; font-weight: bold; color:rgb(189, 189, 189); }
 .day_selected { background-color: #2492c975 !important; color: #ffff;}
 
+.menu {
+  clear: both;
+}
+
+button {
+  border: 1px solid #333;
+}
+
 footer{ display: block; position: relative; width: 100%; height:auto; background-color: rgb(63, 63, 63); padding-bottom: 20px;}
 .mini_txt_box{width: 100%; display: flex; justify-content: center; background-color: rgb(63, 63, 63);; padding: 10 0px;}
 footer .footer_mini_txt { width: 100%; border-bottom: 1px solid #eaeaea7e;}
