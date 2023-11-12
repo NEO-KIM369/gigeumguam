@@ -375,7 +375,7 @@ header .logo > img { display: block; width: auto; height: 100%}
 .product_all_wrap .sc05_wrap .btn1 { background-color: #2885c0; color: #fff; }
 
 
-.product_header {width: 100%; height: 60px; position: fixed; box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15); z-index: 9; background-color: #fff;}
+.product_header {width: 100%; height: 60px; position: fixed; box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15); z-index: 9; background-color: #fff;display:flex;justify-content:center;}
 .header_product_left_wrap { width: 50%; height: 60px; float: left; padding-left: 10px; display: flex; justify-content: flex-start; align-items: center;}
 .product_code {color: #777777; font-size: 13px;  }
 .header_product_left_wrap a button { width: 28px; }
