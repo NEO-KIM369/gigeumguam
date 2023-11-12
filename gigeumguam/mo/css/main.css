@@ -95,7 +95,7 @@ header .logo > img { display: block; width: auto; height: 100%}
 .section01 .swiper .swiper-pagination {margin: 0 5%; margin-top: 20px; width: 90%;display: flex;justify-content: flex-start;align-items: center;}
 .section01 .swiper .swiper-pagination .swiper-pagination-bullet{width: 9%;height: 5px;border-radius: 0;}
 
-.section02 { width: 100%; height: auto; margin-top: 50px; text-align: center;}
+.section02 { width: 100%; height: auto; margin-top: 10px; text-align: center;}
 .section02 .main_title { width: auto; padding-bottom: 8px; font-weight: 900; font-size: 20px; border-bottom: 2px solid black;}
 .section02 .btn01_content_wrap { width: 100%;  height : auto;  display: flex; flex-wrap: wrap; justify-content: space-around; margin-top: 20px; margin-bottom: 50px;}
 .section02 .content_img_wrap { width: 100%; height: auto; border-radius: 10px; overflow: hidden; border: 1px solid black;}
