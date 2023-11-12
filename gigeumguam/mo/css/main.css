@@ -513,6 +513,7 @@ header .logo > img { display: block; width: auto; height: 100%}
   border: 1px solid #333;
   width: 20%;
   margin: 0;
+  box-sizing:border-box;
 }
 
 footer{ display: block; position: relative; width: 100%; height:auto; background-color: rgb(63, 63, 63); padding-bottom: 20px;}
