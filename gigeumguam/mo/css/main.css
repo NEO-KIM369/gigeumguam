@@ -238,7 +238,7 @@ header .logo > img { display: block; width: auto; height: 100%}
 .payment_name { font-size: 20px; margin-right: 100px; }
 .payment_price { font-size: 20px; }
 .reservation_btn2 { width: 100%; height:45px; padding: 0 10px; margin-top: 40px; margin-bottom: 20px; border: none; border-radius: 0px; color: #fff; font-size: 16px; background-color: #0f0;}
-.reservation_btn { width: 100%; height:45px; padding: 0 10px; margin-top: 40px; margin-bottom: 20px; border: none; border-radius: 0px; color: #fff; font-size: 16px; background-color: #2493c0;}
+.reservation_btn { width: 100%; height:45px; padding: 0 10px; margin-top: 40px; margin-bottom: 20px; border: none ; border-radius: 0px !important; color: #fff; font-size: 16px; background-color: #2493c0;}
 
 .idpw_header { width: 100%; padding: 15px 5%; text-align: center;}
 .idpwfind_btn_a{ display:inline-block; float: right; width: 20px;}
